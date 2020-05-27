@@ -1,0 +1,417 @@
+/* Заголовки и подзаголовки секций */
+.title_gray{
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #595959;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#subtitle_gray{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #595959;
+  opacity: 0.6;
+  text-align: center;
+}
+
+#title_white{
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#subtitle_white{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #fff;
+  opacity: 0.6;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+/* Первый экран */
+
+#first_screen{
+  background: #092232 url("../images/Background1.jpg") center no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+
+#header{
+  padding: 45px 0 0;
+}
+
+#my_nav{
+  padding: 0px 0px !important;
+}
+
+.link_menu_main {
+  color: #ffffff !important;
+  font-size: 17px;
+  font-weight: 300;
+  opacity: 0.75;
+  margin-left: 40px;
+  padding: 0px 0px !important;
+}
+
+.link_menu_main:hover {
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Для бургера */
+.burger{
+  border: none;
+  padding: 0px 0px;
+}
+
+.nav_icon{
+  background-image: url("../images/Burger.png") !important;
+  border: none !important;
+}
+
+.nav_icon:focus{
+  box-shadow: none !important;
+  border: none;
+}
+
+.nav_icon:active{
+  box-shadow: none !important;
+  border: none;
+}
+
+/* Заголовок и подзаголовок */
+#main_title {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+#subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #ffffff;
+  opacity: 0.9;
+
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+/* Кнопка */
+#intro_button {
+  background: #ff9900;
+  padding: 15px 65px;
+  border-radius: 100px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0a161d;
+  text-decoration: none;
+}
+
+#intro_button:hover {
+  background: #ffb800;
+}
+
+#intro_button:focus{
+  box-shadow: none;
+}
+
+/* Этапы */
+
+#stages {
+  padding: 80px 0 ;
+  background:linear-gradient(#092232, #19557A, #D1E5ED);
+}
+
+#stage_block2{
+  margin-left: 8.33%;
+}
+
+.white_block{
+  margin-left: 8.33%;
+}
+
+.stage_pic{
+  width: 100%;
+}
+
+.pic_description{
+  width: 100%;
+  position: relative;
+}
+
+.stage_text{
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+}
+
+.title_desc{
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #595959;
+  margin-bottom: 20px;
+}
+
+.subtitle_desc{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #595959;
+}
+
+.btn_stage{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.desc_more{
+  background: none;
+  padding: 10px 50px;
+  border-radius: 100px;
+  border: 2px solid;
+  border-color: #ff9900; 
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #595959;
+  text-decoration: none;
+
+  margin-right: 30px;
+}
+
+.desc_more:hover{
+  background-color: #ff9900;
+}
+
+.desc_more:focus{
+  box-shadow: none !important;
+}
+
+.arrow{
+  width: 60px;
+}
+
+.connect{
+  height: 180px;
+}
+
+/* Виды услуг */
+
+#services {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.option1 {
+  border-radius: 10px;
+  background-color: #d1e5ed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 800px;
+}
+
+.option1:hover{
+  box-shadow: 5px 5px 10px 0px rgba(0, 69, 114, 0.3);
+}
+
+.subtitle_option {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #595959;
+  text-align: center;
+  margin: 0px;
+}
+
+.pic_option {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 40px;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #595959;
+  list-style-image: url("../images/Marker.png");
+  margin: 50px 0px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+/* Кнопка */
+.button_option {
+  background: #ff9900;
+  padding: 12px 70px;
+  border-radius: 100px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #595959;
+
+  display: block;
+  margin: 50px auto 0px;
+}
+
+.button_option:hover {
+  background: #ffb800;
+  color: #595959;
+}
+
+.button_option:focus{
+  box-shadow: none;
+}
+
+/* Магазин */
+#shop{
+  background-color: #d1e5ed;
+  padding: 80px 0;
+}
+
+#pic_shop{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+#shop_button{
+  background: rgba(255, 255, 255, 0.95);
+  padding: 10px 50px;
+  border-radius: 100px;
+  border: 2px solid;
+  border-color: #ff9900; 
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #595959;
+  text-decoration: none;
+
+  margin: 70px auto 0;
+}
+
+#shop_button:hover{
+    background-color: #ff9900;
+}
+
+#shop_button:focus{
+  box-shadow: none;
+}
+
+/* Карта */
+#map{
+  position: relative;
+}
+
+.test{
+  background-color: rgba(236, 22, 201, 0.9);
+  background-blend-mode: 
+  color,
+  normal;
+}
+
+#address{
+  background-color: #d1e5ed;
+  padding: 30px;
+  box-shadow: 0px 5px 15px -5px rgba(0, 69, 114, 0.8);
+  position: absolute;
+  bottom: 40%;
+  border-radius: 10px;
+}
+
+#map_title{
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #595959;
+  margin-bottom: 20px;
+}
+
+#map_text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #595959;
+  margin: 0;
+}
+
+/* Footer */
+
+footer{
+  background: linear-gradient(to bottom, #19557A, #092232);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title_footer{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.4;
+  margin: 0 0 25px;
+}
+
+.link_menu_f {
+  display: block;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  opacity: 0.75;
+  padding: 0 0 10px;
+}
+
+.link_menu_f:hover {
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.icons{
+  display: flex;
+}
+
+.icon1{
+  margin-left: 40px;
+}
+
+.icon1:first-child{
+  margin-left: 0px;
+}
