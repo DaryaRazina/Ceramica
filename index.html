@@ -10,6 +10,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
     <title>Ceramica</title>
 </head>
 
@@ -23,13 +26,13 @@
             <header id="header">
 
                 <nav class="navbar navbar-expand-lg navbar-light" id="my_nav">
-                    <a class="navbar-brand" href="#"><img src="images/Logo_white.png" alt=""></a>
+                    <a class="navbar-brand" href="#"><img src="images/MainScreen/Logo_white.png" alt=""></a>
                     <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon nav_icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav mt-0">
+                        <ul class="navbar-nav mt-0 menu_burger">
                             <li class="nav-item active">
                                 <a class="nav-link link_menu_main" href="#stages">Этапы</a>
                             </li>
@@ -54,8 +57,8 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4">
-                    <h2 id="subtitle">Уроки от профессиональных 
+                <div class="col-lg-4 col-11">
+                    <h2 id="subtitle">Уроки от профессиональных
                         керамистов со всей России</h2>
                 </div>
             </div>
@@ -84,52 +87,50 @@
 
             <!-- Первый ряд -->
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <img class="stage_pic" src="images/Stage1.png" alt="Этап 1">
+                <div class="col-lg-6 col-md-6">
+                    <img class="stage_pic" src="images/Stages/Stage1.png" alt="Этап 1">
                 </div>
 
-                <div class="col-lg-5 white_block">
-                    <div class="description">
-                        <img class="pic_description" src="images/Description1.png" alt="Этап 1">
-                        <div class="stage_text">
-                            <h3 class="title_desc">Гончарный круг</h3>
+                <div class="col-lg-5 col-md-6 white_block">
 
-                            <p class="subtitle_desc">От основы до готового изделия</p>
+                    <img class="pic_description" src="images/Stages/Description1.png" alt="Этап 1">
+                    <div class="stage_text">
+                        <h3 class="title_desc">Гончарный круг</h3>
 
-                            <div class="btn_stage">
-                                <button type="button" class="btn desc_more">Подробнее</button>
-                                <img src="images/Arrow.png" class="arrow" alt="Стрелка">
-                            </div>
+                        <p class="subtitle_desc">От основы до готового изделия</p>
+
+                        <div class="btn_stage">
+                            <button type="button" class="btn desc_more">Подробнее</button>
+                            <img src="images/Stages/Arrow.png" class="arrow" alt="Стрелка">
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <!-- Переход -->
             <div class="row text-center">
                 <div class="col-lg-12">
-                    <img class="connect" src="images/Connect.png" alt="Переход">
+                    <img class="connect" src="images/Stages/Connect.png" alt="Переход">
                 </div>
             </div>
 
             <!-- Второй ряд -->
             <div class="row align-items-center">
-                <div class="col-lg-6" id="stage_block2">
-                    <img class="stage_pic" src="images/Stage2.png" alt="Этап 2">
+                <div class="col-lg-6 col-md-6" id="stage_block2">
+                    <img class="stage_pic" src="images/Stages/Stage2.png" alt="Этап 2">
                 </div>
 
-                <div class="col-lg-5 order-first">
-                    <div class="description">
-                        <img class="pic_description" src="images/Description1.png" alt="Этап 3">
-                        <div class="stage_text">
-                            <h3 class="title_desc">Роспись</h3>
+                <div class="col-lg-5 col-md-6 order-first">
+                    <img class="pic_description" src="images/Stages/Description1.png" alt="Этап 3">
+                    <div class="stage_text">
+                        <h3 class="title_desc">Роспись</h3>
 
-                            <p class="subtitle_desc">Роспись готового изделия</p>
+                        <p class="subtitle_desc">Роспись готового изделия</p>
 
-                            <div class="btn_stage">
-                                <button type="button" class="btn desc_more">Подробнее</button>
-                                <img src="images/Arrow.png" class="arrow" alt="Стрелка">
-                            </div>
+                        <div class="btn_stage">
+                            <button type="button" class="btn desc_more">Подробнее</button>
+                            <img src="images/Stages/Arrow.png" class="arrow" alt="Стрелка">
                         </div>
                     </div>
                 </div>
@@ -138,28 +139,26 @@
             <!-- Переход -->
             <div class="row text-center">
                 <div class="col-lg-12">
-                    <img class="connect" src="images/Connect2.png" alt="Переход">
+                    <img class="connect" src="images/Stages/Connect2.png" alt="Переход">
                 </div>
             </div>
 
             <!-- Третий ряд -->
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <img class="stage_pic" src="images/Stage3.png" alt="Этап 3">
+                <div class="col-lg-6 col-md-6">
+                    <img class="stage_pic" src="images/Stages/Stage3.png" alt="Этап 3">
                 </div>
 
-                <div class="col-lg-5 white_block">
-                    <div class="description">
-                        <img class="pic_description" src="images/Description1.png" alt="Этап 3">
-                        <div class="stage_text">
-                            <h3 class="title_desc">Обжиг</h3>
+                <div class="col-lg-5 col-md-6 white_block">
+                    <img class="pic_description" src="images/Stages/Description1.png" alt="Этап 3">
+                    <div class="stage_text">
+                        <h3 class="title_desc">Обжиг</h3>
 
-                            <p class="subtitle_desc">Обжиг для придания прочности</p>
+                        <p class="subtitle_desc">Обжиг для придания прочности</p>
 
-                            <div class="btn_stage">
-                                <button type="button" class="btn desc_more">Подробнее</button>
-                                <img src="images/Arrow.png" class="arrow" alt="Стрелка">
-                            </div>
+                        <div class="btn_stage">
+                            <button type="button" class="btn desc_more">Подробнее</button>
+                            <img src="images/Stages/Arrow.png" class="arrow" alt="Стрелка">
                         </div>
                     </div>
                 </div>
@@ -183,11 +182,11 @@
             <div class="row justify-content-between">
 
                 <!-- Плашка 1 -->
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12 opt_card">
                     <div class="option1">
                         <h3 class="subtitle_option">Индивидуальное <br> занятие</h3>
 
-                        <img class="pic_option" src="images/Option1.png" alt="">
+                        <img class="pic_option" src="images/Options/Option1.png" alt="">
 
                         <ul>
                             <li>3200 рублей</li>
@@ -202,11 +201,11 @@
                 </div>
 
                 <!-- Плашка 2 -->
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12 opt_card">
                     <div class="option1">
                         <h3 class="subtitle_option">Групповое <br> занятие</h3>
 
-                        <img class="pic_option" src="images/Option2.png" alt="">
+                        <img class="pic_option" src="images/Options/Option2.png" alt="">
 
                         <ul>
                             <li>2000 рублей</li>
@@ -221,12 +220,12 @@
                 </div>
 
                 <!-- Плашка 3 -->
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12 opt_card">
                     <div class="option1">
 
                         <h3 class="subtitle_option">Тематическое <br> занятие</h3>
 
-                        <img class="pic_option" src="images/Option3.png" alt="">
+                        <img class="pic_option" src="images/Options/Option3.png" alt="">
 
                         <ul>
                             <li>1000 рублей</li>
@@ -251,14 +250,12 @@
 
             <div class="row">
                 <div class="col-xl-12 col-sm-12">
-
                     <h2 class="title_gray">Наш магазин</h2>
-
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-xl-12 col-sm-12 p-0">
+                <div class="col-xl-12 col-sm-12 col-12">
                     <h3 id="subtitle_gray">В магазине Вы можете приобрести изделия от наших <br>
                         преподавателей и других профессионалов</h3>
                 </div>
@@ -299,10 +296,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-xl-2 col-sm-12 ">
-                    <a class="" href="#"><img src="images/Logo_white.png" alt="Логотип"></a>
+                <div class="col-xl-2 col-lg-2 col-sm-12 col-12" id="logo_footer">
+                    <a class="" href="#"><img src="images/MainScreen/Logo_white.png" alt="Логотип"></a>
                 </div>
-                <div class="col-xl-3 menu_footer">
+                <div class="col-xl-3 col-lg-3 col-md-4">
                     <h4 class="title_footer">Меню</h4>
 
                     <nav>
@@ -313,13 +310,13 @@
                     </nav>
                 </div>
 
-                <div class="col-xl-4 col-sm-12 contacts">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 contacts">
                     <h4 class="title_footer">Связаться с нами</h4>
                     <a href="tel:8 (831) 123 45 67" class="link_menu_f">8 (831) 123 45 67</a>
                     <a href="mailto:schoolceramica@gmail.ru" class="link_menu_f">schoolceramica@gmail.ru</a>
                 </div>
 
-                <div class="col-xl-3 col-sm-12">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                     <h4 class="title_footer">Мы в социальных сетях</h4>
                     <div class="icons">
                         <a href="https://www.youtube.com/" class="link_menu_f icon1"><img src="images/icons/Youtube.png"

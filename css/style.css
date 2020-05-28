@@ -41,7 +41,7 @@
 /* Первый экран */
 
 #first_screen{
-  background: #092232 url("../images/Background1.jpg") center no-repeat;
+  background: #092232 url("../images/MainScreen/Background1.jpg") center no-repeat;
   background-size: cover;
   padding-bottom: 110px;
 }
@@ -76,7 +76,7 @@
 }
 
 .nav_icon{
-  background-image: url("../images/Burger.png") !important;
+  background-image: url("../images/MainScreen/Burger.png") !important;
   border: none !important;
 }
 
@@ -231,7 +231,6 @@
   background-color: #d1e5ed;
   padding-top: 50px;
   padding-bottom: 50px;
-  height: 800px;
 }
 
 .option1:hover{
@@ -261,7 +260,7 @@ ul {
   font-weight: 400;
   line-height: 1.4;
   color: #595959;
-  list-style-image: url("../images/Marker.png");
+  list-style-image: url("../images/Options/Marker.png");
   margin: 50px 0px;
 }
 
@@ -415,3 +414,117 @@ footer{
 .icon1:first-child{
   margin-left: 0px;
 }
+
+/* Адаптивность. Медиа-запросы */
+/* Бургер открывается справа */
+@media (min-width: 320px) and (max-width: 990px){
+  .menu_burger{
+    float: right;
+    text-align: right;
+  }
+
+  #address{
+    display: none;
+  }
+}
+
+@media (min-width: 310px) and (max-width: 480px){
+  /* Этапы */
+  .arrow{
+    display: none;
+  }
+
+  .white_block{
+    margin-left: 0px;
+  }
+
+  #stage_block2{
+    margin-left: 0px;
+  }
+
+  .connect{
+    height: 100px;
+  }
+
+  .stage_text{
+    position: absolute;
+    bottom: 14%;
+    left: 12%;
+  }
+
+  /* Виды услуг */
+  #services{
+    background-color: #D1E5ED;
+  }
+
+  .opt_card{
+    padding: 0px;
+  }
+
+  .option1{
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 15px;
+    border-radius: 0px;
+  }
+  
+  .option1:hover{
+    box-shadow: none;
+  }
+
+  /* Карта */
+  #address{
+    display: none;
+  }
+
+  /* Футер */
+  footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #logo_footer{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .title_footer{
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 992px){
+  
+  .white_block{
+    margin-left: 0px;
+  }
+
+  .arrow{
+    display: none;
+  }
+
+  .btn_stage{
+    margin-top: 20px;
+  }
+
+  .stage_text{
+    bottom: 10%;
+    left: 11%;
+  }
+
+  #stage_block2{
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1279px){
+  .option1{
+    margin-bottom: 15px;
+  }
+
+  #logo_footer{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
